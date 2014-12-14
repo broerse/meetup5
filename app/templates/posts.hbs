@@ -3,8 +3,9 @@
     <tr><th>Recent Posts</th></tr>
   </thead>
   <tbody>
-  {{#each}}
+  {{#each pagedContent}}
     <tr><td>{{title}} by {{author}}</td></tr>
   {{/each}}
   </tbody>
+  {{page-numbers content=pagedContent}}
 </table>
