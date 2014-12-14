@@ -32,6 +32,6 @@
     "express": "^4.8.5",
     "glob": "^4.0.5",
     "ember-cli-bootstrap": "0.0.4",
-    "ember-cli-pagination": "^0.6.3"
+    "ember-cli-pagination": "git://github.com/broerse/ember-cli-pagination.git#dots"
   }
 }
